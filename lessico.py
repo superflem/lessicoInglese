@@ -9,7 +9,8 @@ def mescola(array):
       randomIndex = int(random() * currentIndex)
       # Riduciamo di un'unita' l'indice corrente
       currentIndex -= 1
-      # Una volta che abbiamo preso l'indice casuale, invertiamo l'elemento che stiamo analizzando alla posizione corrente (currentIndex) con quello alla posizione presa casualmente (randomIndex)
+      # Una volta che abbiamo preso l'indice casuale, invertiamo l'elemento che stiamo analizzando alla posizione corrente (currentIndex) con quello alla posizione 
+      # presa casualmente (randomIndex)
       # Variabile temporanea
       temporaryValue = array[currentIndex]
       # Eseguiamo lo scambio
@@ -21,7 +22,7 @@ def mescola(array):
 
 domande = []
 domande.append({"domanda": "Melting down materials is cheaper than electrolysis", "risposta": "aluminium"})
-domande.append({"domanda": "Scarsity makes recycling desiderable. justify the cost of removing insulation from electric wires. Brass and bronze", "risposta": "copper"})
+domande.append({"domanda": "Scarsity makes recycling desiderable. Justify the cost of removing insulation from electric wires. Brass and bronze", "risposta": "copper"})
 domande.append({"domanda": "Sorting is critical, there are difference between clear and coloured materials used in bottles and jars", "risposta": "glass"})
 domande.append({"domanda": "Need to sort waste carefully, some types can be melted down, many cannot", "risposta": "plastic"})
 domande.append({"domanda": "Tyres are primary source of recyclabe material. Can be reused whole in certain application", "risposta": "rubber"})
@@ -37,19 +38,19 @@ domande.append({"domanda": "Rocks from which metal can be extracted", "risposta"
 domande.append({"domanda": "Timber from pine", "risposta": "softwood"})
 domande.append({"domanda": "Timber from deciduous", "risposta": "hardwood"})
 
-domande.append({"domanda": "Combinations of materials (plurale)", "risposta": "compounds"})
+domande.append({"domanda": "Combinations of materials", "risposta": "compounds"})
 domande.append({"domanda": "Rare or complex", "risposta": "exotic"})
 domande.append({"domanda": "Iron and steel", "risposta": "ferrous"})
-domande.append({"domanda": "Minerals transformed by heat (plurale)", "risposta": "ceramics"})
+domande.append({"domanda": "Minerals transformed by heat", "risposta": "ceramics"})
 domande.append({"domanda": "Mixture of metals", "risposta": "alloy"})
 domande.append({"domanda": "Materials that are not metals", "risposta": "non-metallic"})
-domande.append({"domanda": "Plastic materials (plurale)", "risposta": "polymers"})
+domande.append({"domanda": "Plastic materials", "risposta": "polymers"})
 # WEEK 3
-domande.append({"domanda": "Pneumatic envelopes in contact with the road surface (plurale)", "risposta": "tyres"})
-domande.append({"domanda": "Pads pressed against discs to induce deceleration (plurale)", "risposta": "brake pads"})
+domande.append({"domanda": "Pneumatic envelopes in contact with the road surface", "risposta": "tyres"})
+domande.append({"domanda": "Pads pressed against discs to induce deceleration", "risposta": "brake pads"})
 domande.append({"domanda": "Protective barriers capable of resisting gunshots", "risposta": "bullet-resistant armour"})
-domande.append({"domanda": "Flexible bands used in transmission systems (plurale)", "risposta": "drive belts"})
-domande.append({"domanda": "Sheets insterted between parts to prevent gas or fluid leakage (plurale)", "risposta": "sealing gaskets"})
+domande.append({"domanda": "Flexible bands used in transmission systems", "risposta": "drive belts"})
+domande.append({"domanda": "Sheets insterted between parts to prevent gas or fluid leakage", "risposta": "sealing gaskets"})
 # WEEK 4
 domande.append({"domanda": "Removal of material across the full diametre of a hole or using hole-saws fur cutting circumferential kerfs", "risposta": "drilling"})
 domande.append({"domanda": "Using oxy fuel (oxygen + combustible gas)", "risposta": "flame-cutting"})
@@ -62,7 +63,24 @@ domande.append({"domanda": "Makes straight cuts by applying pressure to shear th
 domande.append({"domanda": "Has a sharp edges for cutting or milling", "risposta": "toothed blade"})
 domande.append({"domanda": "Width of the saw cut", "risposta": "kerf"})
 domande.append({"domanda": "Has a hard, rough surface for cutting or grinding", "risposta": "abrasive wheel"})
-# WEEK 5
+# WEEK 7
+domande.append({"domanda": "Lift / make something go up", "risposta": "raise"})
+domande.append({"domanda": "Joining", "risposta": "connecting"})
+domande.append({"domanda": "Carried (objects, over a distance)", "risposta": "transported"})
+domande.append({"domanda": "Hold something firmly / bear its weight", "risposta": "support"})
+domande.append({"domanda": "Fixed", "risposta": "attached"})
+domande.append({"domanda": "Climb up", "risposta": "ascend"})
+domande.append({"domanda": "Climb down", "risposta": "descend"})
+domande.append({"domanda": "Provided with energy / moved by a force", "risposta": "powered"})
+domande.append({"domanda": "Driven / have movement directed", "risposta": "controlled"})
+
+domande.append({"domanda": "Standard, usual", "risposta": "conventional"})
+domande.append({"domanda": "gets rid of", "risposta": "eliminates"})
+domande.append({"domanda": "Better / the best", "risposta": "superior"})
+domande.append({"domanda": "Has a low energy consumption", "risposta": "energy-efficient"})
+domande.append({"domanda": "Improved", "risposta": "enhanced"})
+domande.append({"domanda": "Decreases", "risposta": "reduces"})
+
 
 
 domande = mescola(domande)
