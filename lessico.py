@@ -72,7 +72,7 @@ domande.append({"domanda": "Has a hard, rough surface for cutting or grinding", 
 domande.append({"domanda": "Gives a cutaway view of the joint between two panels", "risposta": "cross section"})
 domande.append({"domanda": "Gives a view of the whole deck from above", "risposta": "plan"})
 domande.append({"domanda": "Gives a simplified representation of a network of air ducts", "risposta": "schematic"})
-domande.append({"domanda": "Gives a brief description or a reference to another related drawing", "risposta": "Note"})
+domande.append({"domanda": "Gives a brief description or a reference to another related drawing", "risposta": "notes"})
 domande.append({"domanda": "Gives a view of all the panels from the front", "risposta": "elevation"})
 domande.append({"domanda": "Gives a deconstructed view of how the panels are fixed", "risposta": "exploded view"})
 domande.append({"domanda": "Gives a detailed written technical description of the panels", "risposta": "specification"})
