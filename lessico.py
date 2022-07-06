@@ -30,7 +30,7 @@ if inserito == "" or inserito == "y" or inserito == "Y":
     domande.append({"domanda": "Sorting is critical, there are difference between clear and coloured materials used in bottles and jars", "risposta": "glass"})
     domande.append({"domanda": "Need to sort waste carefully, some types can be melted down, many cannot", "risposta": "plastic"})
     domande.append({"domanda": "Tyres are primary source of recyclabe material. Can be reused whole in certain application", "risposta": "rubber"})
-    domande.append({"domanda": "Scrap can be sorted easily by magnetism. If the material is galvanised, the zin is fully recyclaible. Stainless steel can by recycled", "risposta": "steel"})
+    domande.append({"domanda": "Scrap can be sorted easily by magnetism. If the material is galvanised, the zinc is fully recyclaible. Stainless steel can by recycled", "risposta": "steel"})
     domande.append({"domanda": "Hardwood and softwood can be reused but the process can be costly", "risposta": "timber"})
 
     domande.append({"domanda": "A type of steel not needing a protective cloating and it doesn't rust", "risposta": "stainless steel"})
@@ -69,7 +69,7 @@ if inserito == "" or inserito == "y" or inserito == "Y":
     domande.append({"domanda": "Makes holes by applying pressure to shear the material", "risposta": "punch"})
     domande.append({"domanda": "Use a pressure on smooth-edged blades for guilloting and punching", "risposta": "shearing"})
 
-    domande.append({"domanda": "Cuts a circular piece to remove an intact core of material", "risposta": "hole saw"})
+    domande.append({"domanda": "Cuts a circular piece to remove an intact core of material", "risposta": "hole-saw"})
     domande.append({"domanda": "Makes straight cuts by applying pressure to shear the material", "risposta": "guillotine"})
     domande.append({"domanda": "Has a sharp edges for cutting or milling", "risposta": "toothed blade"})
     domande.append({"domanda": "Width of the saw cut", "risposta": "kerf"})
