@@ -100,7 +100,7 @@ if inserito == "" or inserito == "y" or inserito == "Y":
     domande.append({"domanda": "Driven / have movement directed", "risposta": "controlled"})
 
     domande.append({"domanda": "Standard, usual", "risposta": "conventional"})
-    domande.append({"domanda": "gets rid of", "risposta": "eliminates"})
+    domande.append({"domanda": "Gets rid of", "risposta": "eliminates"})
     domande.append({"domanda": "Better / the best", "risposta": "superior"})
     domande.append({"domanda": "Has a low energy consumption", "risposta": "energy-efficient"})
     domande.append({"domanda": "Improved", "risposta": "enhanced"})
